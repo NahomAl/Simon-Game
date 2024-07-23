@@ -36,7 +36,6 @@ function buttonAnimation(currentKey) {
 function press( color) { 
     addAudio(color);
     buttonAnimation(color);
-    console.log(clicks);
      setTimeout(function () {
         start();
       }, 200);
