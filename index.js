@@ -94,7 +94,6 @@ function levelSequence() {
             }, i * 700);
         })(i);
     }
-    console.log(list);
     clicks = [];
 }
 function restart() { 
